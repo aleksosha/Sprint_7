@@ -1,9 +1,7 @@
 import pytest
 from pages.orders import OrdersAPI
 import requests
-
-BASE_URL = "https://qa-scooter.praktikum-services.ru/api/v1"
-
+from url import BASE_URL
 
 class TestOrders:
     def setup_method(self):
